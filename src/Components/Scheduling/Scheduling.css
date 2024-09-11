@@ -1,0 +1,16 @@
+/* Scheduling.css */
+.agendar-btn {
+    background-color: #ffdd00;
+    border-color: #ffdd00;
+}
+.agendar-btn:hover {
+    background-color: #e6c000; /* Um tom mais escuro para o hover, se desejar */
+    border-color: #e6c000;
+}
+.agendeAgoraImage {
+    width: 100%; /* Ajuste o percentual conforme necessário */
+    max-width: 300px; /* Define a largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Adiciona borda arredondada, se desejado */
+    margin-top: 20px; /* Espaçamento superior */
+}

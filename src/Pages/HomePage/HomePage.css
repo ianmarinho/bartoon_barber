@@ -1,0 +1,169 @@
+/* Estilo para o Texto Fixo Acima do Carrossel */
+.hero-text {
+    text-align: center;
+    z-index: 10;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.hero-text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero-text p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ffdd00;
+    color: #333;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+.cta-button:hover {
+    background-color: #e6c800;
+    text-decoration: none;
+    color: #000;
+}
+
+/* Estilos para o Carrossel */
+.hero-carousel {
+    max-height: 80vh;
+    margin-top: 5%;
+}
+
+.hero-carousel .carousel-item img {
+    height: 70vh;
+    object-fit: cover;
+}
+
+/* Remove os indicadores do carrossel */
+.carousel-indicators {
+    display: none !important;
+}
+
+/* Legendas do Carrossel Abaixo das Imagens e Lado a Lado */
+.carousel-captions {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Raleway', sans-serif;
+    padding: 0 2rem;
+}
+
+.carousel-captions div {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.carousel-captions h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 1rem;
+}
+
+.carousel-captions p {
+    font-size: 1rem;
+    color: #fff;
+}
+
+/* Customização das setas laterais do carrossel */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    filter: invert(1) !important;
+}
+
+/* Seções de serviços */
+#services {
+    background-color: black;
+    padding: 60px 0;
+}
+
+#services .section-title {
+    margin-bottom: 40px;
+}
+
+#services .section-title h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#services .section-title p {
+    font-size: 18px;
+    color: white;
+}
+
+#services .service-item {
+    text-align: center;
+    border: 1px solid #5E17EB;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+#services .fa,
+#services .fas {
+    color: #5E17EB;
+}
+
+#services .service-desc {
+    margin-top: 20px;
+}
+
+#services .service-desc h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#services .service-desc p,
+#services .service-description {
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+}
+
+/* Estilos responsivos */
+@media (min-width: 768px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col-md-4 {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}

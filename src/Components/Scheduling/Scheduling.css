@@ -1,0 +1,87 @@
+.agendar-btn {
+    background-color: #ffdd00;
+    border-color: #ffdd00;
+}
+
+.agendar-btn:hover {
+    background-color: #e6c000;
+    /* Um tom mais escuro para o hover, se desejar */
+    border-color: #e6c000;
+}
+
+.agendeAgoraImage {
+    width: 100%;
+    max-width: 100%;
+    /* 100% para se ajustar em telas pequenas */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    border-radius: 8px;
+    /* Adiciona borda arredondada, se desejado */
+    margin-top: 20px;
+    /* Espaçamento superior */
+}
+
+.custom-button {
+    background-color: #ffdd00;
+    color: #000;
+    /* Cor do texto */
+    border: none;
+    /* Remove a borda padrão */
+}
+
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    position: relative;
+    max-width: 90%;
+    /* Limita a largura máxima do pop-up */
+    margin: 20px;
+    /* Margem em dispositivos pequenos */
+}
+
+.close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.unit-list {
+    list-style: none;
+    padding: 0;
+}
+
+.unit-list li {
+    cursor: pointer;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.location-icon {
+    margin-right: 8px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .popup-content {
+        margin: 10px;
+        /* Menos margem em telas pequenas */
+    }
+}
